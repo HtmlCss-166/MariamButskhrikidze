@@ -1,0 +1,25 @@
+
+.d-flex {display: flex;
+     flex-wrap:wrap; 
+     justify-content: space-between;
+background-color:  #C6F3F0 ;border: dashed;}
+body { padding-left: 50px;
+padding-right: 50px;
+padding-top: 200px;
+padding-bottom: 30px;}
+#headline {text-align: center;margin-top: 30px;background-color: pink;border: solid;}
+#paragraph {padding-top: 30px; background-color:pink;
+padding-bottom: 30px;border: solid;}
+#gilaki {
+color: palevioletred;
+cursor: pointer
+border-radius 20px;
+}
+
+#gilaki:hover {background-color: #CCFFE5;}
+#gilaki:active {box-shadow: 10px 5px palevioletred}
+#veli1::placeholder {color: rgb(220, 101, 182);}
+#veli2::placeholder {color: rgb(214, 117, 195);}
+#photo {margin: none;
+padding: none;}
+#table {border: solid;border-collapse: separate; align-items: center;}
